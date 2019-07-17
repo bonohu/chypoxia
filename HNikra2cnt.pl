@@ -2,7 +2,7 @@
 # program to count upregulated and downregulated samples 
 # Hidemasa Bono <bonohu@gmail.com>
 
-die "usage: $0 threshold\n" if(@ARGV == 0);
+die "usage: $0 threshold < output_from_ikra.tsv \n" if(@ARGV == 0);
 	
 my $j = 0;
 my $thre = shift(@ARGV);
